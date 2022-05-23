@@ -234,7 +234,9 @@ button {
   mix-blend-mode: difference;
 }
 /* Active link */
-
+.active-link {
+  color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
 .home {
