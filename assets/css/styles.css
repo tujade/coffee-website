@@ -774,7 +774,21 @@ button {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (min-width: 320px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
+  .quality__img-small {
+    transform: translateX(-6rem);
+  }
+
+  .quality__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}
 
 /* For medium devices */
 
