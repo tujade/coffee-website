@@ -726,8 +726,21 @@ button {
 .footer__copy {
   font-size: var(--smaller-font-size);
 }
-/*=============== SCROLL BAR ===============*/
 
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl(206, 4%, 80%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(206, 4%, 64%);
+  border-radius: .25rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(206, 4%, 48%);
+}
 
 /*=============== SCROLL UP ===============*/
 
